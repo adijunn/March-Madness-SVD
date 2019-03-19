@@ -1,11 +1,13 @@
 import sklearn
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 import pandas as pd
 import numpy as np
 
 dataset = pd.read_csv()
 dataset.head()
 
-sc = sklearn.preprocessing.StandardScaler()
+sc = StandardScaler()
 pca = PCA()
 X_train = sc.fit_transform(X_train) 
 X_train = sc.fit_transform(X_train) 
