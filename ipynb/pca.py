@@ -4,8 +4,6 @@ from sklearn.decomposition import PCA
 import pandas as pd
 import numpy as np
 
-dataset = pd.read_csv()
-dataset.head()
 
 sc = StandardScaler()
 pca = PCA()
